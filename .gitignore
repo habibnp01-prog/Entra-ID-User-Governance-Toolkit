@@ -1,0 +1,45 @@
+# PowerShell temporary files
+*.ps1.bak
+*.ps1.tmp
+*.tmp
+*.temp
+*.bak
+
+# Generated reports
+Reports/*.csv
+Reports/*.html
+Reports/*.json
+Reports/*.xml
+
+# Logs
+Logs/*.csv
+Logs/*.log
+Logs/*.txt
+
+# Configuration
+Config/*.json
+!Config/Config.example.json
+
+# Secrets and certificates
+*.key
+*.pem
+*.pfx
+*.p12
+*.cer
+*.crt
+*.secret
+.env
+.env.*
+
+# PowerShell transcript/history
+*.transcript
+ConsoleHost_history.txt
+
+# Editor files
+.vscode/
+.idea/
+*.swp
+
+# Operating system
+Thumbs.db
+.DS_Store

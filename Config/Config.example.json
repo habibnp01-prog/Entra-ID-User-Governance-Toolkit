@@ -1,0 +1,19 @@
+{
+  "Governance": {
+    "InactiveThresholdDays": 90,
+    "GroupReviewThreshold": 10,
+    "GroupHighThreshold": 20,
+    "GroupCriticalThreshold": 30
+  },
+  "Reports": {
+    "Directory": "Reports"
+  },
+  "Logs": {
+    "Directory": "Logs",
+    "AuditFile": "EntraGovernanceAudit.csv"
+  },
+  "Remediation": {
+    "RequireConfirmation": true,
+    "AllowBulkRemediation": false
+  }
+}
